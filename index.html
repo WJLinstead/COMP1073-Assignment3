@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script src="JS/scripts.js" defer></script>
+<link rel="stylesheet" href="CSS/styles.css">
+<h1>Pizza Menu</h1>
+
+<p id="nameAndNumber"></p>
+
+<form action="JS/scripts.js" id="pizzaOrderForm">
+  <label for="firstName">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  
+  <label for="lastName">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+
+  <label for="address">Address:</label><br>
+  <input type="text" id="address" name="address"><br><br>
+
+  <label for="pizzaSize">Size of Pizza:</label><br>
+
+  <input type="radio" id="small" name="size">
+  <label for="small">24 Inches</label><br>
+
+  <input type="radio" id="medium" name="size">
+  <label for="medium">36 Inches</label><br>
+
+  <input type="radio" id="large" name="size">
+  <label for="large">48 Inches</label><br><br>
+
+  <label for="toppings">Toppings For Pizza:</label><br>
+
+  <input type="checkbox" id="pepperoni" name="toppings">
+  <label for="pepperoni">Pepperoni</label><br>
+
+  <input type="checkbox" id="peppers" name="toppings">
+  <label for="peppers">Hot Peppers</label><br>
+
+  <input type="checkbox" id="sausage" name="toppings">
+  <label for="sausage">Sausage</label><br>
+
+  <input type="checkbox" id="pineapple" name="toppings">
+  <label for="pineapple">Pineapple</label><br>
+
+  <input type="checkbox" id="chicken" name="toppings">
+  <label for="chicken">Chicken</label><br>
+
+  <input type="checkbox" id="ham" name="toppings">
+  <label for="ham">Ham</label><br>
+
+  <input type="checkbox" id="tomatoes" name="toppings">
+  <label for="tomatoes">Tomatoes</label><br><br>
+
+  <button type="button" onclick="showId()">
+    Order
+</button>
+</form>
+ <h2 id="pizzaDescription"> </h2>
+
+</body>
+</html>
